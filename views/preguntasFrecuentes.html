@@ -3,174 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preguntas Frecuentes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Preguntas frecuentes</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-<header> 
-    <div class="container header-container">
-        <div class="logo-nombre">
-            <img src="../img/LOGO.png" alt="Logo Stickerland" class="logo">
+<body>
+    <header>
+        <div class="logo-nombre"> 
+            <img src="../img/LOGO.png" alt="logo" class="logo">
             <h1 class="nombre">STICKERLAND</h1>
         </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                <li class="nav-item"><a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">inicio</a></li>
+            <li><a href="./contacto.html">contacto</a></li>
+            <li><a href="#">preguntas frecuentes</a></li>
+            <li><a href="./productos.html">productos</a></li>
+            <li><a href="./nosotros.html">nosotros</a></li>
             </ul>
-        </div>
-    </nav>
-</header>
-<body class="preguntas-frecuentes">
-    <main class="preguntas-frecuentes">
-        <h2>Preguntas Frecuentes</h2>
-        <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        </nav>
+    </header>
+    <section class="faq">
+        <h2 class="preguntasf">preguntas frecuentes</h2>
+        <div class="pregunta">
+            <h3>¿de que material son los stickers?</h3> 
+            <p>Los stickers están hechos de vinilo adhesivo de alta calidad, lo que los hace resistentes al agua y al desgaste. Son ideales para laptops, botellas, cuadernos y más</p>       
+         </div>
 
-<style>
-    /* Estilos personalizados */
-    .accordion-button {
-        background-color: #f8f9fa;
-        font-weight: bold;
-        color: #333;
-    }
+         <div class="pregunta">
+            <h3>¿Son resistentes al agua y al sol?</h3> 
+            <p>Sí, los stickers están laminados para resistir agua y rayones. Además, los de vinilo premium son resistentes al sol y pueden durar años sin perder color.</p>       
+         </div>
 
-    .accordion-button:hover {
-        background-color: #e2e6ea;
-    }
+         <div class="pregunta">
+            <h3>¿Hacen diseños personalizados?</h3> 
+            <p>¡Sí! Podemos crear stickers con tu diseño, logo o ilustración. Solo envíanos la imagen en buena calidad y te ayudamos con el proceso.</p>       
+         </div>
 
-    .accordion-item {
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        margin-bottom: 10px;
-        overflow: hidden;
-    }
+         <div class="pregunta">
+            <h3>¿Cuánto tardan en entregar los pedidos?</h3> 
+            <p>El tiempo de entrega depende del volumen del pedido y la ubicación, pero generalmente enviamos en 2-5 días hábiles. También ofrecemos envíos exprés si lo necesitas más rápido</p>       
+         </div>
 
-    .accordion-body {
-        background-color: #fff;
-        color: #555;
-    }
-</style>
+         <div class="pregunta">
+            <h3>¿Cuáles son los métodos de pago y envío?</h3> 
+            <p>Aceptamos pagos por transferencia, PayPal y otros métodos seguros. Los envíos se realizan por paquetería confiable y te proporcionamos un número de seguimiento.</p>       
+         </div>
 
-<div class="container mt-4">
-    <div class="accordion" id="faqAccordion">
-        <!-- Pregunta 1 -->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                    ¿Cuál es el tiempo de entrega?
-                </button>
-            </h2>
-            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    El tiempo de entrega es de 3 a 5 días hábiles.
-                </div>
-            </div>
-        </div>
 
-        <!-- Pregunta 2 -->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                    ¿Hacen envíos internacionales?
-                </button>
-            </h2>
-            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Sí, realizamos envíos a varios países con costos adicionales.
-                </div>
-            </div>
-        </div>
-
-        <!-- Pregunta 3 -->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                    ¿Qué métodos de pago aceptan?
-                </button>
-            </h2>
-            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Aceptamos tarjetas de crédito/débito, PayPal y transferencias bancarias.
-                </div>
-            </div>
-        </div>
-
-        <!-- Pregunta 4 -->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                    ¿Puedo personalizar mis stickers?
-                </button>
-            </h2>
-            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Sí, puedes enviarnos tu diseño o solicitar un diseño personalizado con costo adicional.
-                </div>
-            </div>
-        </div>
-
-        <!-- Pregunta 5 -->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                    ¿Ofrecen descuentos por compras al por mayor?
-                </button>
-            </h2>
-            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Sí, ofrecemos descuentos para compras al por mayor. Contáctanos para más información.
-                </div>
-            </div>
-        </div>
-
-        <!-- Pregunta 6 -->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
-                    ¿Cómo puedo contactar con atención al cliente?
-                </button>
-            </h2>
-            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Puedes contactarnos a través de nuestro correo electrónico, WhatsApp o redes sociales.
-                </div>
-            </div>
-        </div>
+    </section>
+    <footer> <div class="footercontenedor">
+        <div class="redessociales">
+        <a href="https://www.facebook.com/share/19o5UAnSsU/?mibextid=wwXIfr" target="_blank">
+            <img src="../img/logofacebook.png" alt="facebook"> </a>
+        <a href="https://www.instagram.com/stickerland.arg?igsh=MTl2d2xteGMybm02aQ==" target="_blank">
+                <img src="../img/logoinstagram.png" alt="instagram"> </a>
     </div>
-</div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-center py-4">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <div class="redes-sociales">
-                    <a href="https://www.facebook.com/share/1682gN9QrX/?mibextid=wwXIfr" target="_blank">
-                        <img src="../img/logofacebook.png" alt="Facebook" class="img-fluid">
-                    </a>
-                    <a href="https://www.instagram.com/stickerland.arg/" target="_blank">
-                        <img src="../img/logoinstagram.png" alt="Instagram" class="img-fluid">
-                    </a>
-                </div>
-                <div class="metodos-pago">
-                    <img src="../img/metodosdepago.png" alt="Métodos de Pago" class="img-fluid">
-                </div>
-            </div>
-        </div>
+    <div class="piedepagina"> <div class="piedepaginapagos">
+        <img src="../img/metodosdepago.png" alt="">
+    </div></div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
